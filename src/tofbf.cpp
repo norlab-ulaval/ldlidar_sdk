@@ -40,6 +40,7 @@ Tofbf::Tofbf(int speed, LDType type) {
       filter_type_ = FilterType::NEAR_FILTER;
       break;
     case LDType::STL_06P:
+    case LDType::STL_19P:
     case LDType::STL_26:
     case LDType::STL_27L:
       filter_type_ = FilterType::NOISE_FILTER;

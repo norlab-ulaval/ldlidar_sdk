@@ -47,6 +47,7 @@ enum class LDType {
   LD_06,
   LD_19,
   STL_06P,
+  STL_19P,
   STL_26,
   STL_27L,
 };

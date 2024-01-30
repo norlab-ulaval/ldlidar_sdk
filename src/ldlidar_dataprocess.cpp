@@ -57,6 +57,7 @@ void LdLidarDataProcess::SetProductType(LDType typenumber) {
       lidar_measure_freq_ = 4500;
       break;
     case LDType::STL_06P:
+    case LDType::STL_19P:
     case LDType::STL_26:
       lidar_measure_freq_ = 5000;
       break;
@@ -161,6 +162,7 @@ bool LdLidarDataProcess::AssemblePacket() {
         case LDType::LD_06:
         case LDType::LD_19:
         case LDType::STL_06P:
+        case LDType::STL_19P:
         case LDType::STL_26:
         case LDType::STL_27L: {
           if (is_noise_filter_) {

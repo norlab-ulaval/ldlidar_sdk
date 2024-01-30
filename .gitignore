@@ -1,3 +1,4 @@
 *.json
 build/**
 sample/windows/build/**
+sample/linux/build/**
