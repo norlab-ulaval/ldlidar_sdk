@@ -19,7 +19,7 @@ $ mkdir  ldlidar_ws
 
 $ cd ldlidar_ws
 
-$ git clone -b design3  https://github.com/ldrobotSensorTeam/ldlidar_sdk.git
+$ git clone -b design3  https://github.com/norlab-ulaval/ldlidar_sdk.git
 ```
 
 ---
