@@ -29,4 +29,6 @@ $ ./build/ldlidar LD14P /dev/ttyUSB0
 $ ./build/ldlidar LD06 /dev/ttyUSB0
 # LDLiDAR LD19
 $ ./build/ldlidar LD19 /dev/ttyUSB0
+# LDLiDAR STL-19P
+$ ./build/ldlidar STL19P /dev/ttyUSB0
 ```
