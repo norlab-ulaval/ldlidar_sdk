@@ -21,6 +21,10 @@ add_library(ldlidar_driver STATIC
   ${LDLIDAR_DRIVER_SOURCE_LINUX} 
 )
 
+target_include_directories(ldlidar_driver
+  PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
 elseif(CMAKE_SYSTEM_NAME MATCHES "Windows")
 message(STATUS "current platform: Windows")
 
@@ -38,6 +42,10 @@ set(LDLIDAR_DRIVER_SOURCE_WIN
 
 add_library(ldlidar_driver STATIC 
   ${LDLIDAR_DRIVER_SOURCE_WIN} 
+)
+
+target_include_directories(ldlidar_driver
+  PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 else()
